@@ -1,3 +1,7 @@
 Enter this in the Goals section:
 
 install -Dmaven.test.failure.ignore=true  clover:instrument  clover:aggregate  clover:clover
+
+1. Select `Post build action` as: Publish OpenClover coverage report
+2. Coverage report directory: target/site/clover
+3. Coverage report file name: clover.xml
